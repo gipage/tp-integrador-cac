@@ -43,6 +43,9 @@
  .oscurecer-img{
     filter: brightness(40%); 
   }
- 
+ .p-oradores{
+    text-align: center;
+    text-transform: uppercase;
+ }
 
 
