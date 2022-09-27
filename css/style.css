@@ -36,6 +36,9 @@
     text-overflow: Ellipsis; 
     
  }
+ .hijo h1{
+    text-align:right;
+ }
  
  .oscurecer-img{
     filter: brightness(40%); 
