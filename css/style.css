@@ -10,3 +10,36 @@
 .nav-item-nb a:hover{
     color: white;
 }
+
+
+
+.padre{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    /* border: 3px solid #11a319; */  
+ }
+
+ 
+ .hijo{
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 20%;
+    right: 10%;
+    color: white;
+    text-align: justify;
+    padding-right: 1em;
+    /* border: 3px solid #ba0701; */
+    overflow: auto;
+    text-overflow: Ellipsis; 
+    
+ }
+ 
+ .oscurecer-img{
+    filter: brightness(40%); 
+  }
+ 
+
+
