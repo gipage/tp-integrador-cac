@@ -10,8 +10,9 @@
 .nav-item-nb a:hover{
     color: white;
 }
-
-
+.nav-item-nb a:focus{
+   color: rgb(251, 251, 80);
+}
 
 .padre{
     height: auto;
@@ -54,4 +55,22 @@
  }
 .align{
    justify-content: right;
+}
+.bg-gino{
+   background-color: #1C3846;
+}
+.bg-enviar{
+   --bs-btn-bg:#96C93E;
+   --bs-btn-hover-bg:#0bf43d;
+}
+.hover-boton{
+   --bs-btn-bg:#29A744;
+   --bs-btn-hover-bg:#0bf43d;
+   --bs-btn-hover-color:black;
+}
+.hover-nav a{
+   color: #29A744;
+}
+.hover-nav a:hover{
+   color:#0bf43d;
 }

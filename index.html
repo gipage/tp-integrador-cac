@@ -17,7 +17,7 @@
 
 <body>
     <!-- Barra de navegación-->
-    <nav class=" navbar-nb navbar navbar-expand-md">
+    <nav class="navbar-nb navbar navbar-expand-md fixed-top">
         <div class="container-fluid px-4">
             <a class="navbar-brand text-light" href="#">
                 <img src="img/codoacodo.png" alt="logo codo a codo" style="width:80px;"> Conf Bs As
@@ -28,19 +28,19 @@
             <div class="collapse navbar-collapse px-md-0" id="mynavbar">
                 <ul class="navbar-nav ms-auto nav-item-nb">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">La conferencia</a>
+                        <a class="nav-link" href="#conf">La conferencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Los oradores</a>
+                        <a class="nav-link" href="#ora">Los oradores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                        <a class="nav-link" href="#lyf">El lugar y la fecha</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conviertete en orador</a>
+                        <a class="nav-link " href="#convierte-en-orador">Conviertete en orador</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-success compra" href="#">Comprar tickets</a>
+                    <li class="nav-item hover-nav">
+                        <a class="nav-link" href="#tickets">Comprar tickets</a>
                     </li>
                 </ul>
             </div>
@@ -59,15 +59,15 @@
                 evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te
                 esperamos!</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-                <button type="button" class="btn btn-success">Comprar tickets</button>
+                <a href="#convierte-en-orador" class="btn btn-outline-light">Quiero ser orador</a>
+                <a href="#tickets" class="btn btn-success hover-boton">Comprar tickets</a>
             </div>
         </div>
     </div>
 
     <!-- Oradores-->
-    <p class="fs-6 m-0 p-oradores mt-3">conoce a los</p>
-    <p class="fs-3 m-0 p-oradores ">oradores</p>
+    <p class="fs-6 m-0 p-oradores mt-3 text-center">conoce a los</p>
+    <p class="fs-3 m-0 p-oradores text-center ">oradores</p>
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="col-6 col-lg-3 my-md-0 my-3">
@@ -135,14 +135,14 @@
     </div>
 
 
-    <div class="container">
+    <div class="container px-5 pb-3 justify-content-center" id="convierte-en-orador">
         <!-- conviertete en un orador-->
         <p class="fs-6 m-0 p-oradores mt-3 text-center">conviértete en un</p>
         <p class="fs-3 m-0 p-oradores text-center">orador</p>
-        <p class="text-center">Anótate como orador para dar una <abbr title="attribute">charla ignite.</abbr> Cuéntanos
+        <p class="text-center">Anótate como orador para dar una <abbr title="5 minutos/express">charla ignite.</abbr> Cuéntanos
             de qué quieres hablar!</p>
         <div class="row justify-content-center">
-            <div class="scol-6">
+            <div class="col-6">
                 <input type="" class="form-control" placeholder="Nombre">
             </div>
 
@@ -152,9 +152,24 @@
 
             <div class="m-3">
                 <textarea class="form-control" rows="4" placeholder="Sobre qué quieres hablar?"></textarea>
+                <p> <small class="text-muted">Recuerda incluir un título para tu charla</small></p>
             </div>
+            <button type="button" class="btn bg-enviar">Enviar</button>
         </div>
     </div>
+
+    <footer class="bg-gino py-3">
+        <div class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-light" href="#preg">Preguntas Frecuentes</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#cont">Contáctanos</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#pre">Prensa</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#conf">Conferencias</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#tyc">Términos y Condiciones</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#priv">Privacidad</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
