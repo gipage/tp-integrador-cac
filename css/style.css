@@ -44,7 +44,6 @@
     filter: brightness(40%); 
   }
  .p-oradores{
-    text-align: center;
     text-transform: uppercase;
  }
 
@@ -53,3 +52,6 @@
    font-size: .8em;
    /*hola*/
  }
+.align{
+   justify-content: right;
+}
