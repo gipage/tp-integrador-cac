@@ -68,9 +68,4 @@
    --bs-btn-hover-bg:#0bf43d;
    --bs-btn-hover-color:black;
 }
-.hover-nav a{
-   color: #29A744;
-}
-.hover-nav a:hover{
-   color:#0bf43d;
-}
+
