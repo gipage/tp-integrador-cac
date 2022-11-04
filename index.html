@@ -185,21 +185,21 @@
     <div class="container">
         <p class="fs-6 m-0 mt-3 text-center">VENTA</p>
         <p class="fs-1 m-0 text-center">VALOR TICKET $200</p>
-        <div class="row mx-5 my-3 px-5">
-            <div class="col-6">
+        <div class="row justify-content-center mx-5 my-3 px-5">
+            <div class="col-5">
                 <input type="" class="form-control" placeholder="Nombre">
             </div>
-            <div class="col-6">
+            <div class="col-5">
                 <input type="" class="form-control" placeholder="Apellido">
             </div>
-            <div class="col-12 mt-3">
+            <div class="col-10 mt-3">
                 <input type="" class="form-control" placeholder="Correo">
             </div>
-            <div class="col-6 my-2">
+            <div class="col-5 my-2">
                 <p class="f2-6 mb-1 ms-1">Cantidad</p>
                 <input type="" class="form-control" placeholder="cantidad">
             </div>
-            <div class="col-6 my-2">
+            <div class="col-5 my-2">
                 <p class="f2-6 mb-1 ms-1">Categoría</p>
                 <select class="form-control form-select">
                     <option>Estudiante</option>
@@ -207,10 +207,18 @@
                     <option>Junior</option>
                 </select>
             </div>
-            <div class="col-12 my-2 border-info border rounded">
-                <p>error</p>
+            <div class="col-10 alert alert-primary">
+                <div class="align-self-start fw-semibold text-primary">
+                    Total a Pagar: $
+                    <span id="total_a_pagar"></span>
+                </div>
             </div>
-
+            <div class="col-5">
+                <button type="button" class="btn bg-enviar me-1 botones text-light">Borrar</button>
+            </div>
+            <div class="col-5 ">
+                <button type="button" class=" btn bg-enviar botones text-light">Resumen</button>
+            </div>
         </div>
     </div>
 
